@@ -1,0 +1,36 @@
+.section {
+  width: 200px;
+  height: 100px;
+  /* Font-family property specifies a list of fonts to be used in order of priority */
+ /* You can use the font-family CSS property to specify the font style for an element. 
+  The first font listed should always be your first choice. 
+  If that font is not available, the browser will display the next font listed. 
+  Finally, you should always end the font-family declaration with a more generic family, 
+  like monospace, so that the browser can pick a similar font if your choices cannot be rendered:*/
+
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.section-blue {
+  /* Line-height property sets the distance between lines of text */
+  line-height: 100px;
+  color: #ffa500;
+  background-color: #0000FF;
+}
+  
+.container {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: white;
+  background-color: black;
+}
+
+#section-1 {
+  /* Font-size property sets the size of a font */
+  font-size: 26px;
+  color: #ffff00;
+  background-color: #800080;
+}
+
+#section-6 {
+  color: #ffff00;
+}
